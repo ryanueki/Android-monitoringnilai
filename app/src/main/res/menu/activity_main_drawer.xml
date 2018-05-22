@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pengetahuan"
+            android:title="Nilai Aspek Pengetahuan" />
+        <item
+            android:id="@+id/nav_sikap"
+            android:title="Nilai Aspek Sikap" />
+        <item
+            android:id="@+id/nav_keterampilan"
+            android:title="Nilai Aspek Keterampilan" />
+        <item
+            android:id="@+id/nav_daftar_kelas"
+            android:title="Daftar Kelas" />
+
+        <item
+            android:id="@+id/nav_guru"
+            android:title="Daftar Guru" />
+
+        <item
+            android:id="@+id/nav_mata_pelajaran"
+            android:title="Daftar Mata Pelajaran" />
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout"/>
+
+    </group>
+
+
+
+</menu>

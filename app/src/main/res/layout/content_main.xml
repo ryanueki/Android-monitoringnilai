@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.seibah.monitoringnilai.Controller.ViewInformasiSiswa"
+    tools:showIn="@layout/app_bar_main">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/judul_informasi_siswa"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textAlignment="center"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/nama_siswa_judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Nama Siswa"/>
+
+            <TextView
+                android:id="@+id/content_nama_siswa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:text=""
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_below="@id/nama_siswa_judul"/>
+
+            <TextView
+                android:id="@+id/nisn_siswa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/content_nama_siswa"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Nomer Induk Siswa Nasional"/>
+
+            <TextView
+                android:id="@+id/isi_nisn_siswa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:text=""
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_below="@id/nisn_siswa"/>
+
+            <TextView
+                android:id="@+id/kelas_siswa_judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/isi_nisn_siswa"
+                android:text="Kelas"/>
+
+            <TextView
+                android:id="@+id/isi_kelas_siswa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:text=""
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_below="@id/kelas_siswa_judul"/>
+
+            <TextView
+                android:id="@+id/tempat_tanggal_lahir_judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/isi_kelas_siswa"
+                android:text="Tempat Tanggal Lahir"/>
+
+            <TextView
+                android:id="@+id/content_tempat_tanggal_lahir_siswa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:text=""
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_below="@id/tempat_tanggal_lahir_judul"/>
+
+            <TextView
+                android:id="@+id/jenis_kelamin_judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/content_tempat_tanggal_lahir_siswa"
+                android:text="Jenis Kelamin"/>
+
+            <TextView
+                android:id="@+id/content_jenis_kelamin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:text=""
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_below="@id/jenis_kelamin_judul"/>
+
+            <TextView
+                android:id="@+id/agama_judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/content_jenis_kelamin"
+                android:text="Agama"/>
+
+            <TextView
+                android:id="@+id/content_agama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:text=""
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_below="@id/agama_judul"/>
+
+            <TextView
+                android:id="@+id/pendidikan_sebelumnya_judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/content_agama"
+                android:text="Pendidikan Sebelumnya"/>
+
+            <TextView
+                android:id="@+id/content_pendidikan_sebelumnya"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:text=""
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_below="@id/pendidikan_sebelumnya_judul"/>
+
+            <TextView
+                android:id="@+id/alamat_siswa_judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/content_pendidikan_sebelumnya"
+                android:text="Alamat Siswa"/>
+
+            <TextView
+                android:id="@+id/content_alamat_siswa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:text=""
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_below="@id/alamat_siswa_judul"/>
+
+            <TextView
+                android:id="@+id/nama_ayah_siswa_judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/content_alamat_siswa"
+                android:text="Nama Ayah"/>
+
+            <TextView
+                android:id="@+id/content_ayah_siswa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:text=""
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_below="@id/nama_ayah_siswa_judul"/>
+
+            <TextView
+                android:id="@+id/nama_ibu_siswa_judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/content_ayah_siswa"
+                android:text="Nama Ibu"/>
+
+            <TextView
+                android:id="@+id/content_nama_ibu_siswa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:text=""
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_below="@id/nama_ibu_siswa_judul"/>
+
+            <TextView
+                android:id="@+id/pekerjaan_ayah_siswa_judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/content_nama_ibu_siswa"
+                android:text="Pekerjaan Ayah"/>
+
+            <TextView
+                android:id="@+id/content_pekerjaan_ayah_siswa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:text=""
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_below="@id/pekerjaan_ayah_siswa_judul"/>
+
+            <TextView
+                android:id="@+id/pekerjaan_ibu_siswa_judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/content_pekerjaan_ayah_siswa"
+                android:text="Pekerjaan Ibu"/>
+
+            <TextView
+                android:id="@+id/content_pekerjaan_ibu_siswa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:text=""
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_below="@id/pekerjaan_ibu_siswa_judul"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

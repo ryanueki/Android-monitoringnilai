@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "479099521987",
+    "firebase_url": "https://monitoring-nilai.firebaseio.com",
+    "project_id": "monitoring-nilai",
+    "storage_bucket": "monitoring-nilai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479099521987:android:ac4d074896343954",
+        "android_client_info": {
+          "package_name": "com.example.seibah.monitoringnilai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479099521987-7cmobqonvtphclempd0ab04a2bbv8rl5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.seibah.monitoringnilai",
+            "certificate_hash": "96c2ec014779e87a39ee651652ecc46a0413f3fb"
+          }
+        },
+        {
+          "client_id": "479099521987-5cpqag7tcrjdcjjogbhvt8lbf3agupol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcvEK85_UBi861-3ubsfvdhXE-g39J370"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479099521987-5cpqag7tcrjdcjjogbhvt8lbf3agupol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
